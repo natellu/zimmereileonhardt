@@ -29,9 +29,9 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("img/backgrounds/holzwerkzeug.jpg");
-    $('.call-to-action-container').backstretch("img/backgrounds/holzstechbeil.jpg");
-    $('.testimonials-container').backstretch("img/backgrounds/werkzeuge.jpg");
+    $('.top-content').backstretch("img/backgrounds/bg.jpg");
+    $('.call-to-action-container').backstretch("img/backgrounds/bgwerkzeug.jpg");
+    $('.testimonials-container').backstretch("img/backgrounds/bgbohreraufholz.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
