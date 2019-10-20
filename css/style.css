@@ -499,6 +499,14 @@ img { max-width: 100%; }
 }
 
 
+
+/***** Kontakt *****/
+.kontakt-box-text {
+	padding-right: 30px;
+	text-align: left;
+}
+
+
 /***** Footer *****/
 
 footer {
