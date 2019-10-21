@@ -29,10 +29,10 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("img/backgrounds/bg.jpg");
-    $('.call-to-action-container').backstretch("img/backgrounds/bgwerkzeug.jpg");
-    $('.testimonials-container').backstretch("img/backgrounds/bgbohreraufholz.jpg");
-    $('.kontaktbild-container').backstretch("img/backgrounds/bgchaos.jpg");
+    $('.top-content').backstretch("img/backgrounds/bg_small.jpg");
+    $('.call-to-action-container').backstretch("img/backgrounds/bgwerkzeug_small.jpg");
+    $('.testimonials-container').backstretch("img/backgrounds/bgbohreraufholz_small.jpg");
+    $('.kontaktbild-container').backstretch("img/backgrounds/bgchaos_small.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
