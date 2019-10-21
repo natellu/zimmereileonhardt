@@ -56,6 +56,7 @@ img { max-width: 100%; }
 .section-container-image-bg, 
 .section-container-image-bg h2, 
 .section-container-image-bg h3 {
+	min-height:300px;
 	color: #fff;
 }
 
