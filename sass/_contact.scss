@@ -1,0 +1,23 @@
+.contact{
+    justify-self: center;
+    width: $width;
+    margin: 5rem 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 36rem));
+    grid-gap: 3rem;
+    justify-content: center;
+
+    @media only screen and (max-width: $bp-1200){
+        width:100vw;
+    }
+    h2{
+        justify-self: center;
+    }
+
+    &__info{
+        text-align: center;
+        align-self: center;
+        justify-self:center;
+    }
+}

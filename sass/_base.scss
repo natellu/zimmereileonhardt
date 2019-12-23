@@ -1,0 +1,53 @@
+
+$color-primary-dark: #373231;
+$color-primary-light: #f9f7f6;
+$color-grey-dark: #797979;
+
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Montserrat', sans-serif;
+
+$shadow: 0 1rem 2rem rgba($color-primary-dark, .5);
+
+
+
+$bp-1400: 87.5em;
+$bp-1200: 75em;
+$bp-800: 50em;
+$bp-600: 37.5em;
+
+$width: 120rem;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: $color-primary-dark;
+
+    @media only screen and (max-width: $bp-1200){
+        font-size: 55%;
+    }
+}
+
+body{
+    font-family: $font-primary;
+    font-weight: 300;
+    line-height: 1.6;
+    background-color: $color-primary-light;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 80vh min-content 30vh min-content 30vh min-content 30vh min-content 30vh;
+    //grid-template-columns: 100vw;
+}

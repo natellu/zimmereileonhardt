@@ -1,0 +1,69 @@
+.projects{
+    justify-self: center;
+    width: $width;
+    margin: 5rem 0;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 36rem));
+    grid-gap: 3rem;
+    padding: 3rem;
+    justify-content: space-evenly;
+    
+    @media only screen and (max-width: $bp-1200){
+        width:100vw;
+    }
+    h2, h4{
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
+    h2{
+        border-bottom: 1px dashed $color-primary-dark;
+    }
+
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        box-shadow: $shadow;
+        padding-bottom: 1rem;
+        overflow: hidden;
+    }
+
+    &__img{
+        width: 100%;
+        border-radius: 5px;
+
+        transition: all .4s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    &__details, &__title, &__date, &__link{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    &__details{
+        padding:1.5rem 1rem;
+    }
+
+    &__link{
+        align-self: baseline;
+        &:link, &:visited{
+            color:$color-grey-dark;
+            display: inline-block;
+            text-decoration: none;
+            border-bottom: 0.1rem solid currentColor;
+            transition: all .2s;
+        }
+
+        &:hover, &:active{
+            background-color: $color-primary-dark;
+            transform: translateX(1rem);
+        }
+    }
+
+}

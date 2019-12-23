@@ -1,0 +1,21 @@
+.bild-grenze{
+    background-size: cover;
+    background-position: center;
+    color: $color-primary-light;
+    
+    &--1{
+        background-image: url(../img/backgrounds/bgbohreraufholz.jpg);  
+    }
+
+    &--2{
+        background-image: url(../img/backgrounds/bgwerkzeug.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    }
+
+    &--3{
+        background-image: url(../img/backgrounds/bgchaos.jpg);  
+    }
+}

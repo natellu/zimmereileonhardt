@@ -1,0 +1,27 @@
+.dienstleistungen{
+    justify-self: center;
+    justify-content: center;
+    width: $width;
+
+    margin: 5rem 0;
+    
+    background-color: $color-primary-light;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 36rem));
+
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    padding: 3rem;
+    color: $color-primary-dark;
+    
+    @media only screen and (max-width: $bp-1200){
+        width:100vw;
+    }
+
+    &__heading{
+        grid-column: 1 / -1;
+        justify-self: center;
+        border-bottom: 1px dashed $color-primary-dark;
+    }
+}
