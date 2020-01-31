@@ -1,5 +1,9 @@
 .header{
-    background-image: url(../img/backgrounds/bg.jpg);
+    background-image: url(../img/backgrounds/bg_smal.jpg);
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 291dpi), (min-width: 1080px){
+        background-image: url(../img/backgrounds/bg.jpg);
+    }
     background-size: cover;
     background-position: center;
     grid-row: 1/2;
