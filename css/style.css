@@ -23,7 +23,11 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 80vh min-content 30vh min-content 30vh min-content 30vh min-content 30vh; }
+  grid-template-rows: 80vh min-content 30vh min-content 30vh min-content 30vh min-content; }
+
+.container-impressum {
+  display: grid;
+  grid-template-rows: 80vh min-content 30vh; }
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
   font-family: "Montserrat", sans-serif;
@@ -298,3 +302,15 @@ a {
     .projects__link:hover, .projects__link:active {
       background-color: #373231;
       transform: translateX(1rem); }
+
+.impressum {
+  width: 120rem;
+  margin: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 36rem));
+  grid-gap: 3rem;
+  justify-content: center;
+  font-size: 1.3rem; }
+  @media only screen and (max-width: 75em) {
+    .impressum {
+      width: 100vw; } }

@@ -48,6 +48,12 @@ body{
 
 .container{
     display: grid;
-    grid-template-rows: 80vh min-content 30vh min-content 30vh min-content 30vh min-content 30vh;
+    grid-template-rows: 80vh min-content 30vh min-content 30vh min-content 30vh min-content /* 30vh */;
     //grid-template-columns: 100vw;
+}
+
+.container-impressum{
+    display: grid;
+    grid-template-rows: 80vh min-content 30vh;
+ 
 }

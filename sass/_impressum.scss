@@ -1,0 +1,16 @@
+.impressum{
+    width: $width;
+    margin: 5rem 0;
+
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 36rem));
+    grid-gap: 3rem;
+    justify-content: center;
+    font-size: 1.3rem;
+
+    @media only screen and (max-width: $bp-1200){
+        width:100vw;
+    }
+
+
+}
