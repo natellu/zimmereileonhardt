@@ -3,4 +3,6 @@
 
 # misc
 node_modules
+.firebase
+.firebaserc
 
